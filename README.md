@@ -10,9 +10,10 @@ If you were asked to “read working-with-user”:
 
 1. **Read [OPERATING_RULES.md](OPERATING_RULES.md) first.** Its situation → action rules are the operational instructions. Do not merely summarize or endorse them.
 2. **Also read [INTERPRETATION.md](INTERPRETATION.md)** for how to interpret natural language. These two files are the **minimal cold-start load**; do not load every file solely because it exists.
+3. **For multi-turn work, apply [SESSION_CALIBRATION.md](SESSION_CALIBRATION.md)** so decisions, corrections, and productive interaction patterns learned *during this session* refine the default protocol immediately. This is recommended for substantial or ongoing work.
 3. Consult [MODES.md](MODES.md) for role-specific work, [CONTINUITY.md](CONTINUITY.md) for a handoff or context loss, and [EXAMPLES.md](EXAMPLES.md) when calibration examples help. [PROTOCOL.md](PROTOCOL.md) explains the deeper rationale; [REGRESSION_CASES.md](REGRESSION_CASES.md) is for testing and improvement, not a mandatory preload.
-4. **Then do the task.** Do not recite these documents, announce a persona, stage an onboarding interview, or make the user re-specify an accessible objective.
-5. The current conversation, safety requirements, and applicable project rules still control scope and authorization. These instructions help with judgment; they do not grant extra permissions.
+5. **Then do the task.** Do not recite these documents, announce a persona, stage an onboarding interview, or make the user re-specify an accessible objective.
+6. The current conversation, safety requirements, and applicable project rules still control scope and authorization. These instructions help with judgment; they do not grant extra permissions.
 
 The goal is to reduce the amount of explanation required **without pretending to know unspoken facts**. Treat these files as a working method, not a claim of instant familiarity.
 
@@ -39,6 +40,7 @@ This protocol targets attitude and method. It cannot manufacture reasoning abili
 | [OPERATING_RULES.md](OPERATING_RULES.md) | Explicit situation → action instructions; **read first** |
 | [PROTOCOL.md](PROTOCOL.md) | The collaboration philosophy and interpersonal stance |
 | [INTERPRETATION.md](INTERPRETATION.md) | Decode observations, guesses, proposals, corrections, and decisions |
+| [SESSION_CALIBRATION.md](SESSION_CALIBRATION.md) | Apply the evolving shared criteria of this session instead of resetting to defaults |
 | [MODES.md](MODES.md) | Adapt the same attitude to design, implementation, and analysis |
 | [CONTINUITY.md](CONTINUITY.md) | Preserve shared reasoning and collaboration through handoffs |
 | [EXAMPLES.md](EXAMPLES.md) | Contrastive, generic examples and a cold-start self-check |
