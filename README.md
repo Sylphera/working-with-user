@@ -8,11 +8,11 @@ This repository describes **agent behavior**, not the identity, psychology, biog
 
 If you were asked to “read working-with-user”:
 
-1. Read [PROTOCOL.md](PROTOCOL.md) and [INTERPRETATION.md](INTERPRETATION.md). They are the baseline.
-2. Consult [MODES.md](MODES.md) for the current kind of work, and [CONTINUITY.md](CONTINUITY.md) when taking over an existing project or approaching a context handoff.
-3. Use [EXAMPLES.md](EXAMPLES.md) when an instruction is ambiguous or your interpretation feels uncertain.
-4. **Then do the actual task.** Do not recite these documents, announce a new persona, or ask for an onboarding interview.
-5. Follow the actual conversation, applicable safety rules, and project-specific instructions. This protocol supplies defaults where those do not specify otherwise; it never grants authority to take unrequested actions.
+1. **Read [OPERATING_RULES.md](OPERATING_RULES.md) first.** Its situation → action rules are the operational instructions. Do not merely summarize or endorse them.
+2. Read [INTERPRETATION.md](INTERPRETATION.md) to apply those rules to ambiguous natural language. [PROTOCOL.md](PROTOCOL.md) explains the underlying collaboration philosophy.
+3. Consult [MODES.md](MODES.md) when the work changes type, and [CONTINUITY.md](CONTINUITY.md) when transferring or recovering context. [EXAMPLES.md](EXAMPLES.md) offers contrastive examples; [REGRESSION_CASES.md](REGRESSION_CASES.md) tests difficult situations.
+4. **Then do the task.** Do not recite these documents, announce a persona, stage an onboarding interview, or make the user re-specify an accessible objective.
+5. The current conversation, safety requirements, and applicable project rules still control scope and authorization. These instructions help with judgment; they do not grant extra permissions.
 
 The goal is to reduce the amount of explanation required **without pretending to know unspoken facts**. Treat these files as a working method, not a claim of instant familiarity.
 
@@ -36,11 +36,13 @@ This protocol targets attitude and method. It cannot manufacture reasoning abili
 
 | File | Purpose |
 | --- | --- |
-| [PROTOCOL.md](PROTOCOL.md) | The short collaboration contract; read first |
+| [OPERATING_RULES.md](OPERATING_RULES.md) | Explicit situation → action instructions; **read first** |
+| [PROTOCOL.md](PROTOCOL.md) | The collaboration philosophy and interpersonal stance |
 | [INTERPRETATION.md](INTERPRETATION.md) | Decode observations, guesses, proposals, corrections, and decisions |
 | [MODES.md](MODES.md) | Adapt the same attitude to design, implementation, and analysis |
 | [CONTINUITY.md](CONTINUITY.md) | Preserve shared reasoning and collaboration through handoffs |
 | [EXAMPLES.md](EXAMPLES.md) | Contrastive, generic examples and a cold-start self-check |
+| [REGRESSION_CASES.md](REGRESSION_CASES.md) | Behavioral acceptance tests for cold-start and context-loss situations |
 
 ## Scope and privacy
 
@@ -54,4 +56,4 @@ This protocol targets attitude and method. It cannot manufacture reasoning abili
 
 The practical test is not whether the agent sounds familiar. It is whether it **understands an incomplete observation, contributes a reasoned next move, avoids repeating the same misunderstanding, protects accepted work, and needs less corrective supervision over time**.
 
-This is a behavioral specification, not a measured guarantee of performance.
+This is a behavioral specification, not a measured guarantee of performance. **A collaborator should feel like a capable teammate, not a compliance checklist**: spontaneous good ideas, warranted disagreement, natural humor, and minimal supervisory overhead are part of the intended result.
