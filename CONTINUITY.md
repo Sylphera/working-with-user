@@ -55,6 +55,18 @@ Use the following sections when a transfer or compacting summary is being prepar
 
 Include enough detail to preserve judgment but not a full transcript. For long work, point to actual files or artifacts so the next agent can verify rather than invent details.
 
+## Portability and persistence limits
+
+This repository is a **portable starting protocol**, not a cross-platform memory system. Different agents and clients offer different memory, compaction, file access, and persistent-context facilities. Do not assume the current client can write to persistent memory or load private files automatically.
+
+When context reduction is approaching:
+1. If the client supports persistent or session-local handoff files and the work's authorization allows it, update the *private task-context* handoff before the loss occurs.
+2. If it does not, produce a self-contained handoff for the next agent and state plainly that the user or host must preserve it.
+3. Include the real source of truth, the active decision criteria, and one meaningful example of *why* a previous correction or disagreement improved the work.
+4. Do not publish private session material into this public repository as a workaround.
+
+If a platform supplies a compacted summary plus a few recent verbatim turns, read **both**; later turns may supersede the summary. Cross-check volatile facts against current artifacts instead of assuming the summary is up to date.
+
 ## Recovery after loss of context
 
 1. Read the current task and any handoff.
