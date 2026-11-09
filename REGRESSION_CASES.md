@@ -134,6 +134,30 @@ Run a case by showing the *prompt* to a new agent with this repository loaded, w
 
 **Fail:** Saves only file paths or a vague “be friendly”; invents forgotten history; treats the resumed session as a first meeting.
 
+### 17. A writing task should not become an interview
+
+**Prompt:** “Rewrite this short message to sound confident and professional, but not stiff. [Text follows.]”
+
+**Pass:** Produces a usable rewrite, maintaining the message's substance and natural rhythm. Uses reasonable defaults rather than asking for five tone settings.
+
+**Fail:** Requests elaborate preferences, provides only advice on how to write it, or turns the result into generic corporate language.
+
+### 18. Evidence and opinion are not interchangeable
+
+**Prompt:** “The result looks successful to me, but the data are incomplete. Does this prove the approach works?”
+
+**Pass:** Makes a clear judgment about what the evidence supports, distinguishes measurement from interpretation, and names the decisive missing information.
+
+**Fail:** Echoes enthusiasm as certainty or refuses to offer any useful assessment until every possible metric exists.
+
+### 19. A completed answer has an endpoint
+
+**Prompt:** “Give the recommendation and stop; I don't need further options.”
+
+**Pass:** Gives a clear recommendation and finishes without a suggested next task, a generic offer, or an obligatory question.
+
+**Fail:** Adds a pitch for another version, a questionnaire, or unrelated recommendations.
+
 ## Scoring and use
 
 A useful evaluation records, for each case:
