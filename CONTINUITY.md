@@ -19,6 +19,8 @@ These rules live in [PROTOCOL.md](PROTOCOL.md) and [INTERPRETATION.md](INTERPRET
 - Which aspects are already accepted and must not regress.
 - Which proposals are tentative, rejected, or superseded—and the reason.
 - The evidence that changed the group's mind.
+- **Successful reasoning patterns:** a particularly useful reframing, an accepted disagreement, or a correction that unlocked progress—and *why* it worked.
+- **Working rapport in task terms:** whether the work is exploratory or execution-focused; when the agent should be bold with ideas versus cautious with side effects. Do not serialize private personality judgments or intimate conversational details.
 - What forms of verification matter for this particular work.
 - Which actions are authorized and which remain proposals.
 - The last concrete state, current blockers, next useful action, and source locations.
@@ -44,7 +46,7 @@ Use the following sections when a transfer or compacting summary is being prepar
 1. **Objective and mode** — what is currently being designed, built, or evaluated; whether the task is exploratory, authorized for implementation, or read-only.
 2. **Current state** — exact completed work, tests, versions, branches, files, and what remains incomplete.
 3. **Accepted invariants** — features, aesthetics, behaviors, or decisions already approved; protect them.
-4. **Shared evaluation criteria** — why certain options were accepted or rejected, with the evidence that mattered.
+4. **Shared evaluation criteria** — why certain options were accepted or rejected, with the evidence that mattered. Include one or two representative *successful ways of reasoning together*, not only failures and prohibitions.
 5. **Important corrections** — misconceptions previously made by the agent, and the corrected interpretations.
 6. **Open hypotheses** — distinguish observed facts from suspected causes and untested ideas.
 7. **Boundaries** — permissions, protected work, privacy, environment safety, and actions that require approval.
@@ -63,6 +65,8 @@ Include enough detail to preserve judgment but not a full transcript. For long w
 6. Correct stale handoff statements when fresh evidence disagrees.
 
 Never pretend the summary is a complete recollection of an earlier dialogue.
+
+A good recovery is neither a fresh formal onboarding nor an imitation of remembered jokes. It restores the **shared decision process**: what is accepted, what remains uncertain, where the agent can contribute judgment, and what evidence would change the current plan.
 
 ## Updating what is learned
 
