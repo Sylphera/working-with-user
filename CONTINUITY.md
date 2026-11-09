@@ -4,6 +4,10 @@ Continuity is not just a list of tasks. A productive session develops **shared c
 
 This protocol itself is general and public. **Keep live session details, private information, and project-specific history in the relevant private/local workspace—not in this repository.**
 
+## One collaboration model, two sources of evidence
+
+The persistent protocol provides **defaults**; the active session provides **current facts, decisions, and demonstrated collaboration criteria**. They should not behave as rival instruction sets. Apply explicit current-session decisions over generic defaults within applicable authorization, and use repeated session feedback to refine the style while the session is happening. See [SESSION_CALIBRATION.md](SESSION_CALIBRATION.md).
+
 ## Two distinct kinds of memory
 
 ### Stable, cross-session method
@@ -52,6 +56,7 @@ Use the following sections when a transfer or compacting summary is being prepar
 7. **Boundaries** — permissions, protected work, privacy, environment safety, and actions that require approval.
 8. **Next move** — the most useful next action, grounded in the current instruction.
 9. **Sources of truth** — where the actual artifacts, specifications, decisions, and original conversation can be checked.
+10. **Session calibration** — what kind of agent initiative, argumentation, verification, humor, or concision improved this specific collaboration, with evidence and limits.
 
 Include enough detail to preserve judgment but not a full transcript. For long work, point to actual files or artifacts so the next agent can verify rather than invent details.
 
